@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cacacb;
+    background-image:url(https://i.gifer.com/XOsX.gif);
+  }
+  
+  .resume {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 12px 4px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  header img.profile-photo {
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: 0 auto 20px; /* Centers the image */
+    width: 150px; /* Width of the photo */
+    height: auto;
+    border-radius: 10%; /* Rounded corners*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow to the photo */
+}
+  header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header p { /*Resume title below name*/
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
+  .languages p {
+    list-style-type: none;
+    padding-left: 0;
+    
+  }
+
+  .languages p {
+    background: #e2e2e2;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px 5px 5px 0;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+
+  .languages p:hover {
+    transform: scale(1.1);
+    background-color: #d1d1d1;
+  }
+
+  .professional {
+    margin-bottom: 20px;
+  }
+  
+  .professional h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .professional li {
+    margin: 5px 0;
+    color: #666;
+  }
+
+  .personal {
+    margin-bottom: 20px;
+  }
+
+  .personal h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+
+  .personal li {
+    margin: 5px 0;
+    color: #666;
+  }
+
+  .skills ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+ 
+.skills ul li {
+    background: #e2e2e2;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px 5px 5px 0;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s; /* Add transition for hover effect */
+  }
+  
+  .skills ul li:hover {
+    transform: scale(1.1); /* Scale up the element */
+    background-color: #d1d1d1; /* Change background color on hover */
+  }
+  
